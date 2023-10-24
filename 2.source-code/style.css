@@ -15,20 +15,21 @@ header {
     padding-top: 150px;
     text-align: center;
 }
+
 header .overlay {
     position: absolute;
-    inset: 0;
     z-index: -1;
-    background-color: #30303032;
+    inset: 0;
+    background-color: #30303061;
 }
+
 header video {
     position: absolute;
+    z-index: -2;
     top: 0;
     left: 0;
-    display: block;
-    z-index: -2;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     object-fit: cover;
 }
 header h1 {
@@ -39,11 +40,8 @@ header h1 {
     text-transform: uppercase;
 }
 .services-link {
-    display: inline-block;
-    min-width: 125px;
-    color: #eeeeee;
+    color: #eee;
     font-size: 20px;
-    padding: 10px 8px;
 }
 main {
     padding: 0 14px;
